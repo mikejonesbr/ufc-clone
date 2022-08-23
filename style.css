@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'KlavikaWebCondensed';
+    src: url('KlavikaWebBoldCond.woff2');
+}
+
+body{
+    background-image: url(https://dmxg5wxfqgb4u.cloudfront.net/styles/background_image_xl/s3/2021-05/GettyImages-1318238112.jpg?VersionId=null&h=c3c263ed&itok=1z2RAQOf);
+    background-size: cover;
+    background-position: top center;
+}
+
+#ufc{
+    width: 50px;
+}
+
+
+nav {
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    margin: 40px 0;
+    width: 65%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    font-family: KlavikaWebCondensed,"Arial Narrow",Arial,sans-serif;
+    text-transform: uppercase;
+    background: white;
+    padding: 20px;
+}
+
+nav a:hover{
+    color: red;
+}
+
+
+.corpo{
+    display: flex;
+    flex-direction: column; /* Só funciona com Flex */
+    align-items: center; /* Só funciona com Flex */
+    justify-content: center; /* Só funciona com Flex */
+    height: 100vh;
+    font-family: KlavikaWebCondensed,"Arial Narrow",Arial,sans-serif;
+}
+
+section h2{
+    margin-bottom: 6px;
+    font-size: 36px;
+    color:aliceblue;
+}
+
+section h1{
+    margin-bottom: 12px;
+    font-size: 96px;
+    color:aliceblue;
+}
+
+section h3{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#botao {
+    width: 145px;
+    height: 50px;    
+    margin: 60px 0px 0px 0px;
+    padding: 12px 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: DIN2014-NarrowDemi,"Arial Narrow",Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d5d6d8;
+    cursor: pointer;
+}
+
+ #botao:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+ }
